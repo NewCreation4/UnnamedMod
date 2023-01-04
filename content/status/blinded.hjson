@@ -1,0 +1,15 @@
+name: Blinded
+description: "Makes the target unable to move and attack."
+speedMultiplier: 0
+disarm: true
+color: 000000
+effect: {
+type: ParticleEffect
+particles: 6
+lifetime: 20
+length: 8
+colorFrom: ffffff
+colorTo: 000000
+sizeFrom: 2
+sizeTo: 0
+}

@@ -1,0 +1,14 @@
+name: Reverse
+description: "Reverses the enemy's moves."
+speedMultiplier: -10
+color: 488237
+effect: {
+type: ParticleEffect
+particles: 6
+lifetime: 20
+length: 8
+colorFrom: 488237
+colorTo: 90ff6b
+sizeFrom: 2
+sizeTo: 0
+}

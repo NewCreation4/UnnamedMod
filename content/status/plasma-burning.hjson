@@ -1,0 +1,18 @@
+name: Plasma Burning
+description: "burning but eletric"
+speedMultiplier: 0.95
+color: ff61fc
+effect: {
+type: ParticleEffect
+particles: 6
+lifetime: 20
+length: 12
+colorFrom: ff61fc
+colorTo: ff00fb
+sizeFrom: 2
+sizeTo: 0
+}
+transitionDamage: 8
+damage: 0.4
+affinities: [tarred]
+opposites: [wet, freezing]

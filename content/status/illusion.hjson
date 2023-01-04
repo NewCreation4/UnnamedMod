@@ -1,0 +1,14 @@
+name: Illusion
+description: "Makes the enemy walk backwards."
+speedMultiplier: -1
+color: c40000
+effect: {
+type: ParticleEffect
+particles: 6
+lifetime: 20
+length: 8
+colorFrom: ff0000
+colorTo: c40000
+sizeFrom: 2
+sizeTo: 0
+}
