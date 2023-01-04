@@ -1,0 +1,15 @@
+name: Wochuenium Wall
+description: "Protects structures, like any other wall, moderate and absorbs lasers."
+
+category: defense
+type: Wall
+absorbLasers: true
+
+research: yafluiciuntine-wall
+alwaysUnlocked: false
+
+health: 1240
+size: 1
+requirements: [
+ wochuenium/6
+]

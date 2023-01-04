@@ -1,0 +1,15 @@
+name: Large Wochuenium Wall
+description: "Protects structures in a 2x2 radius, like any other 2x2 wall, moderate and absorbs lasers."
+
+category: defense
+type: Wall
+absorbLasers: true
+
+research: wochuenium-wall
+alwaysUnlocked: false
+
+health: 4960
+size: 2
+requirements: [
+ wochuenium/24
+]

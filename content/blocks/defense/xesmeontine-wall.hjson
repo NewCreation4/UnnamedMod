@@ -1,0 +1,14 @@
+name: Xesmeontine Wall
+description: Protects structures, like any other wall, strongest.
+
+category: defense
+type: Wall
+
+research: wochuenium-wall
+alwaysUnlocked: false
+
+health: 1670
+size: 1
+requirements: [
+ xesmeontine/6
+]

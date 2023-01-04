@@ -1,0 +1,14 @@
+name: Yafluiciuntine Wall
+description: Protects structures, like any other wall, weakest.
+
+category: defense
+type: Wall
+
+research: tesseract
+alwaysUnlocked: true
+
+health: 960
+size: 1
+requirements: [
+ yafluiciuntine/6
+]

@@ -1,0 +1,14 @@
+name: Large Xesmeontine Wall
+description: Protects structures in a 2x2 radius, like any other 2x2 wall, strongest.
+
+category: defense
+type: Wall
+
+research: xesmeontine-wall
+alwaysUnlocked: false
+
+health: 6680
+size: 2
+requirements: [
+ xesmeontine/24
+]

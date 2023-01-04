@@ -1,0 +1,20 @@
+name: Large Yafluiciuntine Wall
+description: Protects structures in a 2x2 radius, like any other 2x2 wall, weakest.
+
+category: defense
+type: Wall
+
+research: {
+  parent: yafluiciuntine-wall
+  requirements: [
+    unnamed-yafluiciuntine/600
+  ]
+}
+alwaysUnlocked: false
+
+health: 3840
+size: 2
+requirements: [
+ yafluiciuntine/24
+]
+envEnabled: 233
