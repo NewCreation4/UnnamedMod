@@ -1,0 +1,58 @@
+name: Cesavyth Reactor
+description: "Burns Cesavyth to generate heaps of energy, Does not need cooling."
+
+category: power
+type: ConsumeGenerator
+
+research: neural-generator
+alwaysUnlocked: false
+
+hasItems: true
+hasPower: true
+hasLiquids: true
+
+health: 2000
+size: 3
+requirements: [
+ yafluiciuntine/400
+ wochuenium/400
+ xesmeontine/200
+ metaglass/50
+]
+
+itemCapacity: 20
+liquidCapacity: 100
+consumes: {
+ items: {
+  items: [
+   coal/2
+   ]
+  }
+ liquid: {
+  liquid: cesavyth
+  amount: 0.4
+  }
+ }
+generateEffect: generatespark
+ambientSound: hum
+powerProduction: 35
+itemDuration: 250
+
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -glass
+   }
+  {
+   type: DrawLiquidTile
+   drawLiquid: cryofluid
+   }
+  {
+   type: DrawDefault
+   }
+  ]
+}
+
+envEnabled: 3

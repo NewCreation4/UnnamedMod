@@ -1,0 +1,33 @@
+name: Coal Generator
+description: "Generates power by burning coal."
+
+category: power
+type: ConsumeGenerator
+
+research: basic-drill
+alwaysUnlocked: false
+
+hasItems: true
+hasPower: true
+hasLiquids: false
+
+health: 120
+size: 1
+requirements: [
+ yafluiciuntine/32
+]
+
+itemCapacity: 10
+consumes: {
+ items: {
+  items: [
+   coal/1
+   ]
+  }
+}
+generateEffect: generatespark
+ambientSound: hum
+powerProduction: 0.99
+itemDuration: 180
+
+envEnabled: 3

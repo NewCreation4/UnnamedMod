@@ -1,0 +1,38 @@
+name: Neural Generator
+description: "Generates power by using the charges from the neurons inside neurocytite. dont enslave neurons in real life please."
+
+category: power
+type: ConsumeGenerator
+
+research: coal-generator
+alwaysUnlocked: false
+
+hasItems: true
+hasPower: true
+hasLiquids: true
+
+health: 160
+size: 2
+requirements: [
+ yafluiciuntine/120
+ neurocytite/80
+]
+
+itemCapacity: 10
+consumes: {
+ items: {
+  items: [
+   glucose/10
+   ]
+  }
+ liquid: {
+  liquid: water
+  amount: 0.1
+  }
+ }
+generateEffect: generatespark
+ambientSound: hum
+powerProduction: 7
+itemDuration: 1920
+
+envEnabled: 3

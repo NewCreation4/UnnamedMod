@@ -1,0 +1,23 @@
+name: Yafluiciuntine Node
+description: Transports power to structures.
+
+category: power
+type: PowerNode
+
+research: coal-generator
+alwaysUnlocked: false
+
+health: 200
+size: 1
+requirements: [
+ yafluiciuntine/8
+]
+ 
+hasPower: true
+hasItems: false
+hasLiquids: false
+
+maxNodes: 20
+laserRange: 12
+
+envEnabled: 3
