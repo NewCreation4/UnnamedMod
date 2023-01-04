@@ -1,0 +1,10 @@
+name: "unnamed"
+displayName: "[#b13dff]Unnamed[][#ffffff]Mod[]"
+description: '''
+  Adds new ores, turrets, walls and much more!
+'''
+author: '''
+  Creation
+'''
+minGameVersion: 140
+version: 0
