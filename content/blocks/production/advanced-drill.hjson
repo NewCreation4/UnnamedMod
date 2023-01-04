@@ -1,0 +1,25 @@
+type: Drill
+health: 840
+name: Speed Drill
+size: 3
+description: An drill that is capable of mining wochuenium by using S P E E D, Requires energy.
+category: production
+drillTime: 640
+tier: 7
+rotateSpeed: 5
+drawMineItem: true
+warmupSpeed: 0.1
+
+hasPower: true
+
+consumes: {
+ power: 3
+}
+
+requirements: [
+ yafluiciuntine/120
+ metaglass/30
+]
+
+research: basic-drill
+alwaysUnlocked: false

@@ -1,0 +1,18 @@
+type: Drill
+health: 240
+name: Yafluiciuntine Drill
+size: 2
+description: An complex drill that is able to mine yafluiciuntine.
+category: production
+drillTime: 680
+tier: 6
+rotateSpeed: 3.2
+drawMineItem: false
+warmupSpeed: 0.005
+
+requirements: [
+ yafluiciuntine/24
+]
+
+research: tesseract
+alwaysUnlocked: true

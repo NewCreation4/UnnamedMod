@@ -1,0 +1,19 @@
+type: SolidPump
+name: Water Driller
+description: Drills trough the ground for water.
+size: 2
+
+attribute: water
+hasPower: false
+
+liquidCapacity: 48
+pumpAmount: 0.1
+
+category: production
+research: basic-drill
+
+requirements: [
+  yafluiciuntine/40
+  metaglass/20
+]
+envEnabled: 3
