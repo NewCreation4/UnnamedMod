@@ -1,0 +1,10 @@
+name: Cesavyth
+description: "Gas used to power up buildings and to generate heaps of power."
+
+research: tesseract
+
+color: 454545
+flammability: 3.2
+explosiveness: 2.7
+gas: true
+alwaysUnlocked: false
