@@ -1,0 +1,47 @@
+name: Quark
+description: Fires small bullets at enemies quickly.
+flying: true
+
+health: 720
+armor: 7
+hitSize: 4
+
+speed: 5
+rotateSpeed: 7
+accel: 0.5
+
+itemCapacity: 0
+
+weapons: [
+ {
+  type: Weapon
+  
+  top: false
+  x: 0
+  y: 0
+  
+  mirror: false
+  rotate: false
+  shootCone: 10
+  inaccuracy: 1
+  reload: 10
+  targetInterval: 1
+  targetSwitchInterval: 1
+  cooldownTime: 150
+  
+  bullet: {
+   type: BasicBulletType
+   width: 5
+   height: 7
+   
+   damage: 32
+   
+   speed: 2.7
+   lifetime: 45
+   
+   trailWidth: 1
+   trailLength: 5
+   }
+  }
+]
+alwaysUnlocked: false

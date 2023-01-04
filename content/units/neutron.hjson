@@ -1,0 +1,51 @@
+name: Neutron
+description: Fires bullets capable of annihilating anything related to power.
+flying: true
+
+health: 3960
+armor: 10
+hitSize: 12
+engineY: -2
+
+speed: 2
+rotateSpeed: 6
+accel: 0.5
+
+itemCapacity: 50
+
+weapons: [
+ {
+  type: Weapon
+  name: megaminx
+  
+  top: true
+  x: 0
+  y: -6.2
+  
+  mirror: false
+  rotate: true
+  shootCone: 10
+  inaccuracy: 1
+  reload: 10
+  targetInterval: 1
+  targetSwitchInterval: 1
+  cooldownTime: 150
+  
+  bullet: {
+   type: EmpBulletType
+   width: 5
+   height: 7
+   
+   damage: 40
+   radius: 50
+   powerDamageScl: 0.3
+   
+   speed: 3.2
+   lifetime: 50
+   
+   trailWidth: 1
+   trailLength: 5
+   }
+  }
+]
+alwaysUnlocked: false
