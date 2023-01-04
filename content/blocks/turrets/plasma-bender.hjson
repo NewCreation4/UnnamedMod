@@ -1,0 +1,30 @@
+type: PowerTurret
+health: 800
+localizedName: Plasma Bender
+description: "Shoots a barrage of plasma lightning at your enemies. Gets energy from its surroundings (real)"
+size: 2
+hasPower: true
+category: turret
+research: tesseract
+requirements: [
+  yafluiciuntine/80
+]
+range: 130
+shootType: {
+  type: LightningBulletType
+  damage: 16
+  status: unnamed-plasma-burning
+  statusDuration: 120
+  lightningLength: 15
+  lightningLengthRand: 15
+  lightningColor: ff61fc
+  lifetime: 60
+}
+reload: 5
+recoil: 1.25
+inaccuracy: 3
+shootSound: spark
+
+alwaysUnlocked: true
+buildVisibility: shown
+envEnabled: 3

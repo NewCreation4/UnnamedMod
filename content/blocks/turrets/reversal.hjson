@@ -1,0 +1,36 @@
+type: PowerTurret
+health: 1460
+consumes: {
+  power: 12.5
+}
+shoot: {
+  shots: 1
+}
+name: Reversal
+description: "Shoots a bullet that reverses the moves of the one hit."
+size: 2
+category: turret
+research: plasma-bender
+requirements: [
+  graphite/140
+  silicon/120
+  titanium/100
+  yafluiciuntine/80
+]
+range: 320
+shootType: {
+  type: MissileBulletType
+  damage: 100
+  frontColor: 90ff6b
+  backColor: 488237
+  status: unnamed-reverse
+  statusDuration: 10
+  width: 10
+  lifetime: 60
+  speed: 6
+  trailColor: 90ff6b
+  trailLength: 1000
+}
+reload: 80
+recoil: 3
+shootSound: lasershoot

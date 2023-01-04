@@ -1,0 +1,60 @@
+type: PowerTurret
+name: Punisher
+size: 2
+health: 2780
+description: "Strong turret that deals massive damage."
+smokeEffect: shootBigSmoke
+range: 180
+shootSound: laser
+consumes: {
+  power: 20
+}
+reload: 500
+cooldownTime: 50
+recoil: 2
+shootType: {
+ type: LaserBulletType
+    chargeEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          lifetime: 100
+          colorFrom: 9f00de
+          colorTo: b700ff
+          sizeFrom: 0
+          sizeTo: 2
+          baseLength: -45
+          length: 45
+          particles: 15
+        }
+        {
+          lifetime: 70
+          colorFrom: 9f00de
+          colorTo: b700ff
+          sizeFrom: 0
+          sizeTo: 2
+          baseLength: -65
+          length: 65
+          offset: 30
+          particles: 10
+        }
+      ]
+    }
+    colors: [9f00de, 7c00ad, b700ff]
+    length: 175
+    damage: 400
+    lifetime: 17
+    status: unnamed-plasma-burning
+    statusDuration: 777
+    drawSize: 400
+    pierceCap: 777
+    healPercent: 7
+}
+category: turret
+research: enlighten
+requirements: [
+  xesmeontine/420
+  neurocytite/300
+  yafluiciuntine/300
+  wochuenium/280
+]

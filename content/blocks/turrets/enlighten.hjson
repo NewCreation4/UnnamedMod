@@ -1,0 +1,59 @@
+type: PowerTurret
+name: Enlighten
+size: 2
+health: 1200
+description: "Strong turret that deals massive damage to enemies and sets them on fire!"
+smokeEffect: shootBigSmoke
+range: 180
+shootSound: laser
+consumes: {
+  power: 8.8
+}
+reload: 100
+cooldownTime: 45
+recoil: 3
+shootType: {
+ type: LaserBulletType
+    chargeEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          lifetime: 100
+          colorFrom: fffc4d
+          colorTo: dbd800
+          sizeFrom: 0
+          sizeTo: 2
+          baseLength: -45
+          length: 45
+          particles: 15
+        }
+        {
+          lifetime: 70
+          colorFrom: fffc4d
+          colorTo: dbd800
+          sizeFrom: 0
+          sizeTo: 2
+          baseLength: -65
+          length: 65
+          offset: 30
+          particles: 10
+        }
+      ]
+    }
+    colors: [fffc4d, ffff00, dbd800]
+    length: 175
+    damage: 320
+    lifetime: 16
+    status: burning
+    statusDuration: 200
+    drawSize: 400
+    pierceCap: 10
+    buildingDamageMultiplier: 1.2
+    healPercent: 5
+}
+category: turret
+research: reversal
+requirements: [
+  yafluiciuntine/100
+  wochuenium/100
+]

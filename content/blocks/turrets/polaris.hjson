@@ -1,0 +1,78 @@
+type: PowerTurret
+name: Polaris
+description: "Summons the polaris."
+health: 2048
+range: 500
+size: 3
+inaccuracy: 7
+reload: 15
+consumes: {
+  power: 64
+}
+shootSound: lasershoot
+shootType: {
+  type: BasicBulletType
+  damage: 255
+  sprite: unnamed-orb
+  status: spore-slowed
+  statusDuration: 300
+  speed: 6
+  lifetime: 80
+  frontColor: 4000ff
+  backColor: 2d00b5
+  trailColor: 2d00b5
+  trailLength: 12
+  homingPower: 1
+  homingRange: 32
+
+  fragBullets: 4
+  fragBullet: {
+    speed: 6
+    lifetime: 60
+    damage: 128
+    frontColor: 0dff00
+    backColor: 089c00
+    trailColor: 089c00
+    trailLength: 12
+    homingPower: 1
+    homingRange: 32
+
+    fragBullets: 3
+    fragBullet: {
+      speed: 6
+      lifetime: 40
+      damage: 64
+      frontColor: ff0000
+      backColor: ab0000
+      trailColor: ab0000
+      trailLength: 12
+      homingPower: 1
+      homingRange: 32
+      fragBullets: 2
+      fragBullet: {
+        speed: 6
+        lifetime: 20
+        damage: 32
+        frontColor: f2ff00
+        backColor: a7b000
+        trailColor: a7b000
+        trailLength: 12
+        homingPower: 1
+        homingRange: 32
+      }
+    }
+  }
+
+  despawnEffect: none
+  despawnHit: true
+}
+category: turret
+research: plasma-bender
+requirements: [
+  xesmeontine/500
+  yafluiciuntine/500
+  wochuenium/500
+  neurocytite/500
+  unraveled-fabrics/250
+  eternal-fabrics/250
+]
