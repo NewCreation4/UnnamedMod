@@ -1,0 +1,17 @@
+name: Blonyeron
+color: ff1212
+description: "Rare thermosynthetic plant that calls Zinotera home, Uses thermal heat to obtain ATP."
+cost: 1.1
+hardness: 1
+explosiveness: 0.05
+flammability: 1
+radioactivity: 0
+charge: 0
+research: {
+  parent: neurocytite
+}
+hiddenOnPlanets: [
+   "serpulo",
+   "erekir"
+]
+alwaysUnlocked: false

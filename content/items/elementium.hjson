@@ -1,0 +1,12 @@
+name: Elementium
+color: ffffff
+frames: 5
+frameTime: 9
+description: "Strange material that emits a reddish aura. Powerful."
+cost: 3
+hardness: 777
+explosiveness: 2
+flammability: 0.2
+radioactivity: 2.5
+charge: 5
+research: eternal-fabrics

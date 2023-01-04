@@ -1,0 +1,10 @@
+name: Eternal Fabric
+color: ffffff
+description: "Strange fabric that is extremely durable and has the ability to teleport biological things."
+cost: 5
+hardness: 30
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+research: unraveled-fabrics

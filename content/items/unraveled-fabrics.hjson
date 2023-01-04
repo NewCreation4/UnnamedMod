@@ -1,0 +1,10 @@
+name: Unraveled Fabric
+color: 2b2b2b
+description: "Strange material. Unravels other fabric occasionally. Used for buildings units."
+cost: 4
+hardness: 15
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+charge: 0
+research: yafluiciuntine

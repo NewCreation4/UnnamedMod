@@ -1,0 +1,10 @@
+name: Xesmeontine
+color: 7c00ad
+description: "Resource used for building extremely complex or strong buildings."
+cost: 2
+hardness: 8
+explosiveness: 0
+flammability: 0
+radioactivity: 0.8
+charge: 0
+research: wochuenium

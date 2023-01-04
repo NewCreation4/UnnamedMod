@@ -1,0 +1,6 @@
+name: Glucose
+color: ffffff
+description: "Basic resource used for maintaining biological things alive."
+cost: 1
+research: yafluiciuntine
+alwaysUnlocked: false
