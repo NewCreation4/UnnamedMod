@@ -1,0 +1,25 @@
+name: "Core: Tesseract"
+description: Core of the base. Armored. Once destroyed, the sector is lost.
+
+category: effect
+type: CoreBlock
+
+alwaysUnlocked: true
+
+research: {
+  root: true,
+  name: "Zinotera",
+  planet: "zinotera",
+},
+
+health: 6000
+size: 3
+itemCapacity: 4000
+requirements: [
+  yafluiciuntine/1000
+]
+
+isFirstTier: true
+unitType: generation
+
+squareSprite: true

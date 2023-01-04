@@ -1,0 +1,26 @@
+type: PowerTurret
+name: Large Neurocytite Sensor
+description: "Senses enemy units within its radius."
+health: 480
+range: 400
+size: 2
+inaccuracy: 999
+consumes: {
+  power: 0.16
+  liquid: {
+   liquid: water
+   amount: 0.16
+  }
+}
+shootSound: pew
+shootType: {
+  type: BasicBulletType
+  damage: 0
+  sprite: unnamed-none-bullet
+}
+category: effect
+research: neurocytite-sensor
+requirements: [
+  neurocytite/24
+]
+envEnabled: 3

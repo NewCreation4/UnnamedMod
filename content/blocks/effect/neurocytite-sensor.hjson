@@ -1,0 +1,42 @@
+type: PowerTurret
+name: Neurocytite Sensor
+description: "Senses enemy units within its radius."
+health: 120
+range: 100
+size: 1
+inaccuracy: 999
+consumes: {
+  power: 0.04
+  liquid: {
+   liquid: water
+   amount: 0.04
+  }
+}
+shootSound: pew
+shootType: {
+  type: BasicBulletType
+  damage: 0
+  sprite: unnamed-none-bullet
+}
+
+destroyBullet: {
+  type: BasicBulletType
+  damage: 1
+  lifetime: 0
+  fragBullets: 7
+  fragBullet: {
+    type: LightningBulletType
+    damage: 4
+    lightningLength: 5
+    lightningLengthRand: 5
+    lightningColor: ff61fc
+    lifetime: 60
+  }
+}
+
+category: effect
+research: yafluiciuntine-wall
+requirements: [
+  neurocytite/6
+]
+envEnabled: 3
