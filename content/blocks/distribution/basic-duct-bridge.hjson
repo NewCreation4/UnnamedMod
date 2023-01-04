@@ -1,0 +1,23 @@
+name: Yafluiciuntine Duct Bridge
+description: The name speaks for itself, once again.
+
+category: distribution
+type: DuctBridge
+
+research: basic-duct
+alwaysUnlocked: false
+
+health: 200
+underBullets: true
+solid: false
+
+size: 1
+requirements: [
+ yafluiciuntine/20
+]
+
+itemCapacity: 20
+
+speed: 0.0001
+
+buildVisibility: shown

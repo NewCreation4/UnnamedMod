@@ -1,0 +1,23 @@
+name: Yafluiciuntine Duct
+description: Moves items quickly.
+
+category: distribution
+type: Duct
+
+research: tesseract
+alwaysUnlocked: true
+
+health: 60
+underBullets: true
+solid: false
+
+size: 1
+requirements: [
+ yafluiciuntine/1
+]
+
+itemCapacity: 5
+
+speed: 0.0001
+
+buildVisibility: shown

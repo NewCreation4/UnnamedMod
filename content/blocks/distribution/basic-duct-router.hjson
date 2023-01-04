@@ -1,0 +1,23 @@
+name: Yafluiciuntine Duct Router
+description: The name speaks for itself.
+
+category: distribution
+type: DuctRouter
+
+research: basic-duct
+alwaysUnlocked: false
+
+health: 120
+underBullets: true
+solid: false
+
+size: 1
+requirements: [
+ yafluiciuntine/3
+]
+
+itemCapacity: 5
+
+speed: 0.0001
+
+buildVisibility: shown
