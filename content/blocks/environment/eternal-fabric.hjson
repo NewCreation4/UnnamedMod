@@ -1,0 +1,4 @@
+type: Floor
+name: Eternal Fabric
+variants: 1
+itemDrop: eternal-fabrics

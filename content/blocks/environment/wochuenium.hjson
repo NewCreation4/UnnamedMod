@@ -1,0 +1,4 @@
+type: OreBlock
+name: Wochuenium
+variants: 2
+itemDrop: wochuenium

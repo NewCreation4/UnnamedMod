@@ -1,0 +1,4 @@
+type: Floor
+name: Unraveled Fabric
+variants: 2
+itemDrop: unraveled-fabrics

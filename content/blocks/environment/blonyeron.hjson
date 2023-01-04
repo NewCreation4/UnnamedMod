@@ -1,0 +1,4 @@
+type: OreBlock
+name: Blonyeron
+variants: 2
+itemDrop: blonyeron
