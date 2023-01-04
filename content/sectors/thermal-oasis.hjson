@@ -1,0 +1,9 @@
+localizedName: Thermal Oasis
+planet: zinotera
+alwaysUnlocked: false
+difficulty: 4
+sector: 42
+captureWave: 5
+overrideLaunchDefaults: true
+allowLaunchSchematics: true
+research: irania

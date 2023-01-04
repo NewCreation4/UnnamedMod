@@ -1,0 +1,7 @@
+localizedName: Snow Wasteland
+planet: zinotera
+alwaysUnlocked: true
+difficulty: 2
+sector: 36
+captureWave: 5
+research: tesseract

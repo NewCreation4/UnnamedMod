@@ -1,0 +1,9 @@
+localizedName: Irania
+planet: zinotera
+alwaysUnlocked: false
+difficulty: 3
+sector: 39
+captureWave: 10
+overrideLaunchDefaults: true
+allowLaunchSchematics: true
+research: snow-wasteland
