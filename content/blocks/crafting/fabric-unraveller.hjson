@@ -1,0 +1,49 @@
+type: GenericCrafter
+name: Fabric Unraveller
+description: "Unravels fabric, like literally anything, Except snow and ice."
+category: crafting
+research: basic-drill
+health: 500
+size: 2
+requirements: [
+ yafluiciuntine/120
+ wochuenium/80
+]
+
+hasPower: true
+hasItems: true
+hasLiquids: false
+
+itemCapacity: 20
+
+consumes: {
+ power: 9.5
+ items: {
+  items: [
+   yafluiciuntine/4
+   ]
+  }
+ }
+ 
+ambientSound: hum
+craftTime: 320
+craftEffect: hitLancer
+outputItem: unraveled-fabrics/2
+
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -bottom
+   }
+  {
+   type: DrawArcSmelt
+   }
+  {
+   type: DrawDefault
+   }
+  ]
+}
+
+envEnabled: 3

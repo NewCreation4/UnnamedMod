@@ -1,0 +1,51 @@
+type: GenericCrafter
+name: Glucose Farm
+description: "Makes glucose using coal and water."
+category: crafting
+research: tesseract
+health: 400
+size: 2
+alwaysUnlocked: false
+requirements: [
+ yafluiciuntine/80
+ metaglass/60
+]
+hasPower: false
+hasItems: true
+hasLiquids: true
+
+itemCapacity: 10
+liquidCapacity: 40
+
+consumes: {
+  items: {
+    items: [
+      coal/1
+    ]
+  }
+  liquid: {
+   liquid: water
+   amount: 0.1
+  }
+ }
+craftTime: 320
+outputItem: glucose/1
+
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -glass
+   }
+  {
+   type: DrawLiquidTile
+   drawLiquid: water
+   }
+  {
+   type: DrawDefault
+   }
+  ]
+}
+
+envEnabled: 3

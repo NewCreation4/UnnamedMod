@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Yafluiciuntine Refinery
+description: "Refines yafluiciuntine to make metaglass."
+category: crafting
+research: tesseract
+health: 420
+size: 2
+requirements: [
+ yafluiciuntine/100
+]
+
+hasPower: true
+hasItems: true
+
+itemCapacity: 10
+
+consumes: {
+  power: 0.3
+  items: {
+   items: [
+    yafluiciuntine/1
+   ]
+  }
+ }
+craftTime: 120
+outputItem: metaglass/1
+
+envEnabled: 3

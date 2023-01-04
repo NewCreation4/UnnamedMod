@@ -1,0 +1,52 @@
+type: GenericCrafter
+name: Cesavyth Extractor
+description: "Extracts cesavyth from unraveled fabric."
+category: crafting
+research: fabric-unraveller
+health: 420
+size: 2
+requirements: [
+ yafluiciuntine/160
+ wochuenium/60
+ metaglass/20
+]
+
+hasPower: true
+hasItems: true
+hasLiquids: true
+
+itemCapacity: 10
+liquidCapacity: 40
+
+consumes: {
+ power: 7
+ items: {
+  items: [
+   unraveled-fabrics/2
+   ]
+  }
+ }
+ 
+ambientSound: hum
+craftTime: 200
+craftEffect: hitLancer
+outputLiquid: cesavyth/0.05
+
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -bottom
+   }
+  {
+   type: DrawLiquidTile
+   drawLiquid: cesavyth
+   }
+  {
+   type: DrawDefault
+   }
+  ]
+}
+
+envEnabled: 3

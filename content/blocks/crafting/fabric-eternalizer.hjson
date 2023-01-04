@@ -1,0 +1,59 @@
+type: GenericCrafter
+name: Fabric Eternalizer
+description: "Eternalizes fabric."
+category: crafting
+research: cesavyth-extractor
+health: 780
+size: 3
+requirements: [
+ yafluiciuntine/320
+ unraveled-fabrics/260
+ xesmeontine/200
+ wochuenium/150
+ yafluiciuntine/120
+]
+
+hasPower: true
+hasItems: true
+hasLiquids: true
+
+itemCapacity: 10
+liquidCapacity: 48
+
+consumes: {
+ power: 10
+ items: {
+  items: [
+   unraveled-fabrics/2
+   xesmeontine/2
+   wochuenium/2
+   ]
+  }
+  liquid: {
+   liquid: cesavyth
+   amount: 0.2
+  }
+ }
+ambientSound: techloop
+craftTime: 200
+craftEffect: turbinegenerate
+outputItem: eternal-fabrics/1
+
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: -glass
+   }
+  {
+   type: DrawLiquidTile
+   drawLiquid: cesavyth
+   }
+  {
+   type: DrawDefault
+   }
+  ]
+}
+
+envEnabled: 3
